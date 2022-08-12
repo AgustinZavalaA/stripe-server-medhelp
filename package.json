@@ -14,13 +14,12 @@
     "stripe": "^10.0.0",
   },
   "scripts": {
-    "start": "node src/server.js",
-    "start-stripe": "node src/server.js",
+    "start": "node server.js",
+    "start-stripe": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:4242/",
   "eslintConfig": {
     "extends": [
       "react-app",
